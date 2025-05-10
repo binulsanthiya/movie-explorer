@@ -34,5 +34,42 @@ Easily search for your favourite films, view trending movies, and manage your pe
 
 ---
 
+## ⚡ Installation
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16 or newer recommended)
+- npm (comes with Node.js) or yarn
+- A TMDb API key ([get yours here](https://www.themoviedb.org/settings/api))
+
+### Steps
+
+1. **Clone the repository:**
+
+-git clone https://github.com/binulsanthiya/movie-explorer.git
+cd movie-explorer
+
+
+2. **Install dependencies:**
+
+
+3. **Set up your API key:**
+
+- Create a file named `.env` in the root directory of the project.
+- Add the following line to `.env` (replace with your actual TMDb API key):
+
+  ```
+  VITE_TMDB_API_KEY=your_tmdb_api_key_here
+  ```
+
+4. **Start the development server:**
+
+
+The app will be available at [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
+
+---
+
+**Note:**  
+- If you use Create React App instead of Vite, use `REACT_APP_TMDB_API_KEY=your_tmdb_api_key_here` in your `.env` file and run `npm start` to launch the app.
 
 
