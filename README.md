@@ -22,7 +22,7 @@ TMDb API key (get one here)
 Installation
 
 bash
-git clone https://github.com/yourusername/movie-explorer.git
+git clone https://github.com/binulsanthiya/movie-explorer.git
 cd movie-explorer
 npm install
 
