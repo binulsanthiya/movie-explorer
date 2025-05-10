@@ -3,20 +3,31 @@ A modern React web app to search, browse, and discover movies using real-time da
 Easily search for your favourite films, view trending movies, and manage your personal favourites with a beautiful, responsive UI.
 
 🚀 Demo
+
 movie-explorer-g31jso4zf-binul-santhiyas-projects.vercel.app
 
 🛠️ Tech Stack
+
 React
+
 Vite (or Create React App)
+
 Material UI
+
 Axios
+
 React Router
+
 TMDb API
 
 ⚡ Getting Started
+
 Prerequisites
+
 Node.js (v16 or newer recommended)
+
 npm or yarn
+
 TMDb API key (get one here)
 
 Installation
@@ -27,9 +38,11 @@ cd movie-explorer
 npm install
 
 Setup Environment Variables
+
 Create a .env file in the project root:
 
 text
+
 VITE_TMDB_API_KEY=your_tmdb_api_key_here
 
 Run Locally
@@ -40,6 +53,7 @@ npm run dev
 App will be available at http://localhost:5173 (or the port shown in your terminal).
 
 📦 Deployment
+
 This app is ready to deploy on Vercel or Netlify.
 
 Vercel Steps:
